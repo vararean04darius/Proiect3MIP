@@ -84,6 +84,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Bauturi.resx">
+      <DependentUpon>Bauturi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Carne.resx">
+      <DependentUpon>Carne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deserturi.resx">
+      <DependentUpon>Deserturi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
