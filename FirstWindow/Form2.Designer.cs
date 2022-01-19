@@ -38,9 +38,10 @@
             // 
             // garnituribtn
             // 
-            this.garnituribtn.Location = new System.Drawing.Point(40, 51);
+            this.garnituribtn.Location = new System.Drawing.Point(30, 41);
+            this.garnituribtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.garnituribtn.Name = "garnituribtn";
-            this.garnituribtn.Size = new System.Drawing.Size(94, 38);
+            this.garnituribtn.Size = new System.Drawing.Size(70, 31);
             this.garnituribtn.TabIndex = 0;
             this.garnituribtn.Text = "Garnituri";
             this.garnituribtn.UseVisualStyleBackColor = true;
@@ -48,9 +49,10 @@
             // 
             // carnebtn
             // 
-            this.carnebtn.Location = new System.Drawing.Point(40, 140);
+            this.carnebtn.Location = new System.Drawing.Point(30, 114);
+            this.carnebtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.carnebtn.Name = "carnebtn";
-            this.carnebtn.Size = new System.Drawing.Size(152, 38);
+            this.carnebtn.Size = new System.Drawing.Size(114, 31);
             this.carnebtn.TabIndex = 1;
             this.carnebtn.Text = "Preparate din carne";
             this.carnebtn.UseVisualStyleBackColor = true;
@@ -58,9 +60,10 @@
             // 
             // deserturibtn
             // 
-            this.deserturibtn.Location = new System.Drawing.Point(40, 222);
+            this.deserturibtn.Location = new System.Drawing.Point(30, 180);
+            this.deserturibtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.deserturibtn.Name = "deserturibtn";
-            this.deserturibtn.Size = new System.Drawing.Size(94, 38);
+            this.deserturibtn.Size = new System.Drawing.Size(70, 31);
             this.deserturibtn.TabIndex = 2;
             this.deserturibtn.Text = "Deserturi";
             this.deserturibtn.UseVisualStyleBackColor = true;
@@ -68,9 +71,10 @@
             // 
             // bauturibtn
             // 
-            this.bauturibtn.Location = new System.Drawing.Point(40, 303);
+            this.bauturibtn.Location = new System.Drawing.Point(30, 246);
+            this.bauturibtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bauturibtn.Name = "bauturibtn";
-            this.bauturibtn.Size = new System.Drawing.Size(94, 38);
+            this.bauturibtn.Size = new System.Drawing.Size(70, 31);
             this.bauturibtn.TabIndex = 3;
             this.bauturibtn.Text = "Bauturi";
             this.bauturibtn.UseVisualStyleBackColor = true;
@@ -78,18 +82,21 @@
             // 
             // cosbtn
             // 
-            this.cosbtn.Location = new System.Drawing.Point(446, 303);
+            this.cosbtn.Location = new System.Drawing.Point(334, 246);
+            this.cosbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cosbtn.Name = "cosbtn";
-            this.cosbtn.Size = new System.Drawing.Size(134, 38);
+            this.cosbtn.Size = new System.Drawing.Size(100, 31);
             this.cosbtn.TabIndex = 4;
             this.cosbtn.Text = "Vizualizare cos";
             this.cosbtn.UseVisualStyleBackColor = true;
+            this.cosbtn.Click += new System.EventHandler(this.cosbtn_Click);
             // 
             // backbtn
             // 
-            this.backbtn.Location = new System.Drawing.Point(446, 368);
+            this.backbtn.Location = new System.Drawing.Point(334, 299);
+            this.backbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.backbtn.Name = "backbtn";
-            this.backbtn.Size = new System.Drawing.Size(134, 38);
+            this.backbtn.Size = new System.Drawing.Size(100, 31);
             this.backbtn.TabIndex = 5;
             this.backbtn.Text = "Back";
             this.backbtn.UseVisualStyleBackColor = true;
@@ -97,15 +104,16 @@
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(614, 418);
+            this.ClientSize = new System.Drawing.Size(460, 340);
             this.Controls.Add(this.backbtn);
             this.Controls.Add(this.cosbtn);
             this.Controls.Add(this.bauturibtn);
             this.Controls.Add(this.deserturibtn);
             this.Controls.Add(this.carnebtn);
             this.Controls.Add(this.garnituribtn);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";

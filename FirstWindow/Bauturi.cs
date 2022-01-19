@@ -38,6 +38,15 @@ namespace FirstWindow
                 TraceHandler th = new TraceHandler();
                 th.ScriereFisier(ex.Message);
             }
+            using (MagazinDbContext context = new MagazinDbContext())
+            {
+                Produs p = new Produs();
+                p.Cantitate = int.Parse(textBox1.Text);
+                p.Denumire = textBox2.Text;
+                context.Produse.Add(p);
+                context.SaveChanges();
+            }
+            this.DialogResult = DialogResult.OK;
         }
     }
 }

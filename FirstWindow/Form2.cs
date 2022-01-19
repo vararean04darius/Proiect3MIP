@@ -46,5 +46,10 @@ namespace FirstWindow
         {
             Close();
         }
+
+        private void cosbtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
