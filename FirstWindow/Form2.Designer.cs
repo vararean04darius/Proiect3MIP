@@ -78,7 +78,7 @@
             // 
             // cosbtn
             // 
-            this.cosbtn.Location = new System.Drawing.Point(446, 291);
+            this.cosbtn.Location = new System.Drawing.Point(446, 303);
             this.cosbtn.Name = "cosbtn";
             this.cosbtn.Size = new System.Drawing.Size(134, 38);
             this.cosbtn.TabIndex = 4;
@@ -89,7 +89,7 @@
             // 
             this.backbtn.Location = new System.Drawing.Point(446, 368);
             this.backbtn.Name = "backbtn";
-            this.backbtn.Size = new System.Drawing.Size(94, 38);
+            this.backbtn.Size = new System.Drawing.Size(134, 38);
             this.backbtn.TabIndex = 5;
             this.backbtn.Text = "Back";
             this.backbtn.UseVisualStyleBackColor = true;
@@ -107,6 +107,7 @@
             this.Controls.Add(this.carnebtn);
             this.Controls.Add(this.garnituribtn);
             this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.ResumeLayout(false);
 

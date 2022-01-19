@@ -33,9 +33,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.adbtn1 = new System.Windows.Forms.Button();
-            this.adbtn2 = new System.Windows.Forms.Button();
-            this.adbtn3 = new System.Windows.Forms.Button();
-            this.adbtn4 = new System.Windows.Forms.Button();
             this.back1btn = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
@@ -88,46 +85,19 @@
             // 
             // adbtn1
             // 
-            this.adbtn1.Location = new System.Drawing.Point(499, 52);
+            this.adbtn1.Location = new System.Drawing.Point(499, 118);
             this.adbtn1.Name = "adbtn1";
-            this.adbtn1.Size = new System.Drawing.Size(102, 29);
+            this.adbtn1.Size = new System.Drawing.Size(102, 39);
             this.adbtn1.TabIndex = 8;
             this.adbtn1.Text = "Adaugare";
             this.adbtn1.UseVisualStyleBackColor = true;
             this.adbtn1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // adbtn2
-            // 
-            this.adbtn2.Location = new System.Drawing.Point(499, 118);
-            this.adbtn2.Name = "adbtn2";
-            this.adbtn2.Size = new System.Drawing.Size(102, 29);
-            this.adbtn2.TabIndex = 9;
-            this.adbtn2.Text = "Adaugare";
-            this.adbtn2.UseVisualStyleBackColor = true;
-            // 
-            // adbtn3
-            // 
-            this.adbtn3.Location = new System.Drawing.Point(499, 185);
-            this.adbtn3.Name = "adbtn3";
-            this.adbtn3.Size = new System.Drawing.Size(102, 29);
-            this.adbtn3.TabIndex = 10;
-            this.adbtn3.Text = "Adaugare";
-            this.adbtn3.UseVisualStyleBackColor = true;
-            // 
-            // adbtn4
-            // 
-            this.adbtn4.Location = new System.Drawing.Point(499, 247);
-            this.adbtn4.Name = "adbtn4";
-            this.adbtn4.Size = new System.Drawing.Size(102, 29);
-            this.adbtn4.TabIndex = 11;
-            this.adbtn4.Text = "Adaugare";
-            this.adbtn4.UseVisualStyleBackColor = true;
-            // 
             // back1btn
             // 
-            this.back1btn.Location = new System.Drawing.Point(572, 319);
+            this.back1btn.Location = new System.Drawing.Point(499, 185);
             this.back1btn.Name = "back1btn";
-            this.back1btn.Size = new System.Drawing.Size(94, 40);
+            this.back1btn.Size = new System.Drawing.Size(102, 40);
             this.back1btn.TabIndex = 12;
             this.back1btn.Text = "Back";
             this.back1btn.UseVisualStyleBackColor = true;
@@ -166,7 +136,7 @@
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(37, 255);
+            this.checkBox4.Location = new System.Drawing.Point(37, 247);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(107, 21);
             this.checkBox4.TabIndex = 16;
@@ -232,7 +202,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(678, 371);
+            this.ClientSize = new System.Drawing.Size(657, 302);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -245,15 +215,13 @@
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.back1btn);
-            this.Controls.Add(this.adbtn4);
-            this.Controls.Add(this.adbtn3);
-            this.Controls.Add(this.adbtn2);
             this.Controls.Add(this.adbtn1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Garnituri";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Garnituri";
             this.Load += new System.EventHandler(this.Garnituri_Load);
             this.ResumeLayout(false);
@@ -267,9 +235,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button adbtn1;
-        private System.Windows.Forms.Button adbtn2;
-        private System.Windows.Forms.Button adbtn3;
-        private System.Windows.Forms.Button adbtn4;
         private System.Windows.Forms.Button back1btn;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
