@@ -34,7 +34,7 @@
             // 
             // comandabtn
             // 
-            this.comandabtn.Location = new System.Drawing.Point(79, 110);
+            this.comandabtn.Location = new System.Drawing.Point(66, 80);
             this.comandabtn.Name = "comandabtn";
             this.comandabtn.Size = new System.Drawing.Size(121, 49);
             this.comandabtn.TabIndex = 0;
@@ -44,7 +44,7 @@
             // 
             // exitbtn
             // 
-            this.exitbtn.Location = new System.Drawing.Point(285, 110);
+            this.exitbtn.Location = new System.Drawing.Point(328, 80);
             this.exitbtn.Name = "exitbtn";
             this.exitbtn.Size = new System.Drawing.Size(121, 49);
             this.exitbtn.TabIndex = 1;
@@ -56,10 +56,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(500, 257);
+            this.ClientSize = new System.Drawing.Size(515, 201);
             this.Controls.Add(this.exitbtn);
             this.Controls.Add(this.comandabtn);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
 
