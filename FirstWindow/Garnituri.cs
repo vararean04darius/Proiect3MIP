@@ -16,5 +16,20 @@ namespace FirstWindow
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Garnituri_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void back1btn_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
