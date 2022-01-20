@@ -38,11 +38,31 @@ namespace FirstWindow
             }
             using (MagazinDbContext context = new MagazinDbContext())
             {
-                Produs p = new Produs();
-                p.Cantitate = int.Parse(textBox1.Text);
-                p.Denumire = textBox2.Text;
-                context.Produse.Add(p);
-                context.SaveChanges();
+                if (checkBox1.Checked)
+                {
+                    Produs p = new Produs();
+                    p.Cantitate = int.Parse(textBox1.Text);
+                    p.Denumire = checkBox1.Text;
+                    context.Produse.Add(p);
+                    context.SaveChanges();
+                }
+                if (checkBox2.Checked)
+                {
+                    Produs p = new Produs();
+                    p.Cantitate = int.Parse(textBox2.Text);
+                    p.Denumire = checkBox2.Text;
+                    context.Produse.Add(p);
+                    context.SaveChanges();
+                }
+                if (checkBox3.Checked)
+                {
+                    Produs p = new Produs();
+                    p.Cantitate = int.Parse(textBox3.Text);
+                    p.Denumire = checkBox3.Text;
+                    context.Produse.Add(p);
+                    context.SaveChanges();
+                }
+
             }
             this.DialogResult = DialogResult.OK;
         }

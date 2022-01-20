@@ -20,7 +20,10 @@ namespace FirstWindow
 
         private void comandabtn_Click(object sender, EventArgs e)
         {
-
+            using (MagazinDbContext context = new MagazinDbContext())
+            {
+                context.Database.ExecuteSqlCommand("TRUNCATE TABLE [TableName]");
+            }
             Form2 f2 = new Form2();
             f2.ShowDialog();
         }
